@@ -25,6 +25,9 @@ main {
     background-size: cover;
     min-height: 50vh;
 }
+@media screen and (max-width: 480px) {
+    h1, main {width: 100%;}
+}
 #interactive {
     display: block;
     margin: auto;
