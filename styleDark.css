@@ -50,7 +50,7 @@ main {
     margin: auto;
     list-style-type: square; 
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 650px) {
     h1, main, #interactive, .container {width: 100%;}
 }
 .item {
