@@ -20,7 +20,7 @@ main {
     background-color: #0e0e1a;
     min-height: 50vh;
 }
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
     h1, main {width: 100%;}
 }
 #interactive {
