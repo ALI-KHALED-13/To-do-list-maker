@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('background.jpg');
+    background-blend-mode: lighten;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+h1 {
+    background-color: rgb(243, 219, 111);
+    color: rgb(90, 31, 4);
+    padding: 1rem;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+    line-height: middle;
+}
+main {
+    width: 85%;
+    margin: auto;
+    margin-top: 1rem;
+    background-image: url('back.jpg');
+    background-size: cover;
+    min-height: 50vh;
+}
+#interactive {
+    display: block;
+    margin: auto;
+    margin-bottom: 2vh;
+    width: 60%;
+    position: relative;
+    top: 1vh;
+}
+#interactive > input {
+    width: 80%;
+    padding: 1vh;
+    font-size: 1.1rem;
+}
+#addButton {
+    background-color: rgb(121, 48, 48);
+    width: 10%;
+    color: white;
+    padding: 1.1vw;
+    font-size: 1.1rem;
+    margin: 0.8vw;
+    cursor: pointer;
+    border-radius: 10%;
+}
+.container {
+    width: 65%;
+    margin: auto;
+    list-style-type: square; 
+}
+.item {
+    display: block;
+    padding: 0.5vw;
+    margin: 1.5rem;
+    background-color: rgba(241, 241, 241, 0.4);
+    font-weight: 500;
+    font-size: 1.5rem;
+    font-family: 'Droid Serif',serif;
+    border-bottom: solid darkred;
+}
+input[type='checkbox']  + label {
+    margin: 1vw;
+    text-transform: capitalize;
+    word-break: break-all;
+}
+input[type='checkbox']:checked + label {
+    text-decoration: line-through;
+}
+.delButton {
+    float: right;
+    background-color: rgb(150, 83, 6);
+    color: white;
+    padding: 0.7%;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 10%;
+}
