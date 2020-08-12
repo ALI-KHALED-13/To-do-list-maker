@@ -25,9 +25,7 @@ main {
     background-size: cover;
     min-height: 50vh;
 }
-@media screen and (max-width: 600px) {
-    h1, main {width: 100%;}
-}
+
 #interactive {
     display: block;
     margin: auto;
@@ -55,6 +53,9 @@ main {
     width: 65%;
     margin: auto;
     list-style-type: square; 
+}
+@media screen and (max-width: 650px) {
+    h1, main, #interactive, .container {width: 100%;}
 }
 .item {
     display: block;
