@@ -20,9 +20,6 @@ main {
     background-color: #0e0e1a;
     min-height: 50vh;
 }
-@media screen and (max-width: 600px) {
-    h1, main {width: 100%;}
-}
 #interactive {
     display: block;
     margin: auto;
@@ -52,6 +49,9 @@ main {
     width: 70%;
     margin: auto;
     list-style-type: square; 
+}
+@media screen and (max-width: 600px) {
+    h1, main, #interactive, .container {width: 100%;}
 }
 .item {
     display: block;
