@@ -11,7 +11,8 @@ function todoMain (){
         
      presaved.forEach(x=> {
          if (x.includes('checked')){
-             addItem(x.slice(0, x.indexOf(' ')));
+             x = x.split(' ').slice(0, -1).join(" ")
+             addItem(x);
              container.firstElementChild.firstElementChild.checked = true;
              fadeItem({target:container.firstElementChild.firstElementChild});
          } else {
