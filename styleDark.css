@@ -76,6 +76,6 @@ input[type='checkbox']  + label {
 }
 @media screen and (max-width: 650px) {
     h1, main, #interactive, .container {width: 100%;}
-    .item { margin: 1.2vw; font-size: 1.1rem;} 
+    .item { margin: 1.3vw 1.1vw; font-size: 1.1rem;} 
     .delButton { font-size: 1rem; }
 }
