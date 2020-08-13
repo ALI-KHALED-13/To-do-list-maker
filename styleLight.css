@@ -55,7 +55,7 @@ main {
     list-style-type: square; 
 }
 @media screen and (max-width: 650px) {
-    h1, main, #interactive, .container {width: 100%;}
+    h1, main, #interactive, .container, .item {width: 100%;}
 }
 .item {
     display: block;
