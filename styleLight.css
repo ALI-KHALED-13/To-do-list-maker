@@ -64,11 +64,6 @@ main {
     font-family: 'Droid Serif',serif;
     border-bottom: solid darkred;
 }
-@media screen and (max-width: 650px) {
-    h1, main, #interactive, .container {width: 100%;}
-    .item { margin: 1rem; font-size: 1rem;} 
-    .delButton { font-size: 1rem; }
-}
 input[type='checkbox']  + label {
     margin: 1vw;
     text-transform: capitalize;
@@ -82,4 +77,9 @@ input[type='checkbox']  + label {
     font-size: 1.2rem;
     cursor: pointer;
     border-radius: 10%;
+}
+@media screen and (max-width: 650px) {
+    h1, main, #interactive, .container {width: 100%;}
+    .item { margin: 1.3vw; font-size: 1.1rem;} 
+    .delButton { font-size: 1rem; }
 }
