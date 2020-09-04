@@ -51,10 +51,10 @@ function todoMain (){
         delButton.innerText = 'Delete';
         delButton.addEventListener('click', delItem, false);
         
-        container.prepend(item);
         item.append(checkbox);
         item.append(label);
         item.append(delButton);
+        container.prepend(item);
         input.value = '';
     }
 
